@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/cc   -rdynamic CMakeFiles/eigensolver.dir/eigensolver.c.o  -o eigensolver -lamgxsh -lrt -ldl -lcudart 

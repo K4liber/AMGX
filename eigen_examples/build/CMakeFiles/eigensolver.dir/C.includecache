@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../base/include/amgx_c.h
+stdio.h
+-
+stdlib.h
+-
+amgx_config.h
+../../base/include/amgx_config.h
+
+../../base/include/amgx_config.h
+
+../../base/include/amgx_eig_c.h
+stdio.h
+-
+stdlib.h
+-
+amgx_config.h
+../../base/include/amgx_config.h
+amgx_c.h
+../../base/include/amgx_c.h
+
+/home/dteam002/project/AMGX/eigen_examples/eigensolver.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+amgx_c.h
+/home/dteam002/project/AMGX/eigen_examples/amgx_c.h
+amgx_eig_c.h
+/home/dteam002/project/AMGX/eigen_examples/amgx_eig_c.h
+
